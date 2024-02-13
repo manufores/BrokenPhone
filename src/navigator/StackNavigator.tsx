@@ -9,16 +9,7 @@ const Stack = createStackNavigator();
 
 export const StackNavigator = () => {
   return (
-    <Stack.Navigator
-      screenOptions={{
-        headerStyle: {
-          elevation: 0,
-          shadowColor: 'transparent',
-        },
-        cardStyle: {
-          backgroundColor: 'blue',
-        },
-      }}>
+    <Stack.Navigator>
       <Stack.Screen name="Pagina1Screen" component={Pagina1Screen} />
       <Stack.Screen name="Pagina2Screen" component={Pagina2Screen} />
       <Stack.Screen name="Pagina3Screen" component={Pagina3Screen} />

@@ -6,7 +6,9 @@ export const styles = StyleSheet.create({
   },
   fondo: {
     flex: 1,
-    backgroundColor: 'blue',
+    alignItems: 'center',
+    justifyContent: 'center',
+    /* backgroundColor: 'blue', */
   },
   texto: {
     color: 'white',
